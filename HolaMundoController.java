@@ -11,4 +11,18 @@ public class HolaMundoController {
     public String sumar(@PathVariable int a, @PathVariable int b) {
         return "Resultado: " + (a+b);
     }
+
+      //es mayor de edad
+    public String mayorEdad(@PathVariable int edad) {
+    return  (edad >= 18 ) ? "mayor de edad" : "Menor de edad";
+
+    }
+
+
+    //sumar 2 numeros
+    public String sumar (@PathVariable int a, @PathVariable int b) {
+        return "resultado: " + (a+b);
+    }
+
+    
 }
